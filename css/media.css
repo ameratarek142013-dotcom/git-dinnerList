@@ -1,0 +1,107 @@
+@media screen and (min-width : 992px){
+    
+    /** navbar **/
+
+    .navbar h1 {
+        font-size: 1.5rem !important;
+        font-weight: 700 !important;
+    }
+    .navbar p {
+        font-size: .875rem !important;
+    }
+    .width-pic {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+
+
+
+
+
+.meal .card{
+    display: flex !important;
+    flex-direction: row !important;
+    height: 50rem !important;
+}
+.meal .card figure {
+    height: 50rem !important;
+    width: 40%;
+    margin-bottom: 0;
+}
+
+.meal .card figure img {
+    border-top-left-radius: 16px !important;
+    border-bottom-left-radius: 16px !important;
+    border-top-right-radius:0 !important;
+}
+.meal .card figure .bottom p:nth-child(2){
+    font-size: 14px !important;
+}
+.meal .card figure .bottom p:nth-child(3){
+    font-size: 16px !important;
+}
+.meal .card figure .bottom svg{
+    font-size: 25px !important;
+}
+.meal .card figure .bottom{
+    padding-block: 25px !important;
+}
+.meal .card figure .top span:nth-child(2){
+    font-size: 16px !important;
+}
+.meal .card figure .top span:nth-child(3){
+    font-size: 14px !important;
+}
+.meal .card .card-body .header .part1 h2{
+    font-size: 36px !important;
+
+}
+.meal .card .card-body .header .part1 p{
+    font-size: 18px !important;
+
+}
+.meal .card .card-body .header{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+.nav-link{
+    padding-inline: 15px !important;
+
+}
+
+.meal .card .card-body .details button{
+    font-size: 16px !important;
+
+}
+.meal .card .card-body .details .health span:nth-child(2){
+    font-size: 16px !important;
+
+}
+.meal .card .card-body .details .health span:nth-child(3){
+    font-size: 20px !important;
+
+}
+
+.meal .card .card-body .danger h6{
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 24px !important;
+}
+.meal .card .card-body .danger p{
+    font-size: 14px !important;
+}
+.meal .card .card-body .button{
+    padding-block: 12px !important;
+    font-size: 16px !important ;
+}
+.meal .card .card-body .button:hover{
+    transform: scale(1.06) !important;
+    
+}
+
+
+
+}
