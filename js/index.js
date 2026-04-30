@@ -1,20 +1,48 @@
 var mealList = [
   {
-    image : "images/photo-1509722747041-616f39b57569.avif" ,
-    rate: 4.8,
-    rateNumber : "(178 reviews)",
-    PrepTime: 10,
-    CookTime: 15,
-    Servings: 2 ,
-    level: "Easy",
-    type: "Italian",
-    name: "Caprese Sandwich",
-    description: "Fresh Italian sandwich with mozzarella, tomato, and basil",
-    ingredients: ["1 ciabatta bread", "200g fresh mozzarella, sliced", "2 large tomatoes, sliced", "Fresh basil leaves", "3 tablespoons pesto", "2 tablespoons balsamic glaze", "Olive oil", "Salt and pepper"],
-    instructions : ["Slice ciabatta bread in half horizontally.", "Toast bread lightly until just crispy.", "Spread pesto on both sides of bread.", "Layer mozzarella slices, tomato slices, and fresh basil leaves.", "Drizzle with olive oil and balsamic glaze. Season with salt and pepper.", "Close sandwich, cut in half, and serve immediately."],
-    nutrition : {Calories:"480Kcal", Carbohydrates:"48g", Fiber :"3g", Protein: "22g", Fat: "22g" , Sodium :"680mg"},
-    tips : ["Use ripe, in-season tomatoes for best flavor", "Buffalo mozzarella is traditional but harder to slice", "Toast bread lightly - not too crispy", "Add prosciutto or salami for a heartier sandwich"]
-  },
+    image: "images/photo-1509722747041-616f39b57569.avif",
+    rate: 4.8,
+    rateNumber: "(178 reviews)",
+    PrepTime: 10,
+    CookTime: 15,
+    Servings: 2,
+    level: "Easy",
+    type: "Italian",
+    name: "Caprese Sandwich",
+    description: "Fresh Italian sandwich with mozzarella, tomato, and basil",
+    ingredients: [
+      "1 ciabatta bread",
+      "200g fresh mozzarella, sliced",
+      "2 large tomatoes, sliced",
+      "Fresh basil leaves",
+      "3 tablespoons pesto",
+      "2 tablespoons balsamic glaze",
+      "Olive oil",
+      "Salt and pepper",
+    ],
+    instructions: [
+      "Slice ciabatta bread in half horizontally.",
+      "Toast bread lightly until just crispy.",
+      "Spread pesto on both sides of bread.",
+      "Layer mozzarella slices, tomato slices, and fresh basil leaves.",
+      "Drizzle with olive oil and balsamic glaze. Season with salt and pepper.",
+      "Close sandwich, cut in half, and serve immediately.",
+    ],
+    nutrition: {
+      Calories: "480Kcal",
+      Carbohydrates: "48g",
+      Fiber: "3g",
+      Protein: "22g",
+      Fat: "22g",
+      Sodium: "680mg",
+    },
+    tips: [
+      "Use ripe, in-season tomatoes for best flavor",
+      "Buffalo mozzarella is traditional but harder to slice",
+      "Toast bread lightly - not too crispy",
+      "Add prosciutto or salami for a heartier sandwich",
+    ],
+  },
   {
     image: "images/photo-1568901346375-23c9450c58cd.avif",
     rate: 4.9,
@@ -40,7 +68,7 @@ var mealList = [
       "Grill patty for 4-5 mins per side.",
       "Melt cheese on top during last minute.",
       "Toast bun and assemble with vegetables and sauce.",
-      "Served with burger sauce"
+      "Served with burger sauce",
     ],
     nutrition: {
       Calories: "650Kcal",
@@ -80,7 +108,7 @@ var mealList = [
       "Chop lettuce and place in a large bowl.",
       "Slice chicken into strips.",
       "Toss lettuce with dressing, top with chicken, croutons, and cheese.",
-      "Served with caeser sauce"
+      "Served with caeser sauce",
     ],
     nutrition: {
       Calories: "420Kcal",
@@ -160,7 +188,7 @@ var mealList = [
       "Cook onion in butter, add rice and toast slightly.",
       "Add broth one ladle at a time, stirring constantly.",
       "When rice is creamy, stir in cheese, and thyme.",
-      "When rice is creamy, stir in mushrooms."
+      "When rice is creamy, stir in mushrooms.",
     ],
     nutrition: {
       Calories: "380Kcal",
@@ -240,7 +268,7 @@ var mealList = [
       "Add vegetables and stir fry on high heat for 5 mins.",
       "Add ginger and soy sauce, cook for 2 more mins.",
       "Garnish with sesame seeds and serve with rice.",
-      "Serve with a sauce"
+      "Serve with a sauce",
     ],
     nutrition: {
       Calories: "210Kcal",
@@ -358,7 +386,7 @@ var mealList = [
       "Add tomatoes, paste, and spices; simmer for 10 mins.",
       "Make small wells and crack eggs into the sauce.",
       "Cover and cook until egg whites are set.",
-      "Serve with bread"
+      "Serve with bread",
     ],
     nutrition: {
       Calories: "240Kcal",
@@ -399,7 +427,7 @@ var mealList = [
       "Pour batter and flip when bubbles appear.",
       "Serve hot with syrup and berries.",
       "Serve with choclate sauce or any favourit sauce",
-      "Serve with coffe or tea "
+      "Serve with coffe or tea ",
     ],
     nutrition: {
       Calories: "350Kcal",
@@ -612,6 +640,7 @@ display();
 
 function changeMeal() {
   display();
+  scrollTop()
 }
 
 function display() {
@@ -1065,4 +1094,11 @@ function display() {
   }
 
   document.getElementById("innerData").innerHTML = box;
+}
+
+function scrollTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
 }
