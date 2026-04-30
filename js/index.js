@@ -751,7 +751,7 @@ function display() {
                     </div>
 
                   </div>
-                  <div class="tab-pane fade mt-4" id="renting-tab-pane" role="tabpanel" " style="height: 350px;" aria-labelledby="renting-tab"
+                  <div class="tab-pane fade mt-4 overflow-y-auto overflow-x-hidden" id="renting-tab-pane" role="tabpanel" " style="height: 350px;" aria-labelledby="renting-tab"
                     tabindex="0">
 
                     <div>
@@ -966,7 +966,7 @@ function display() {
                     </div>
 
                   </div>
-                  <div class="tab-pane fade mt-4" id="renting-tab-pane" role="tabpanel" " style="height: 350px;" aria-labelledby="renting-tab"
+                  <div class="tab-pane fade mt-4 overflow-y-auto overflow-x-hidden" id="renting-tab-pane" role="tabpanel" " style="height: 350px;" aria-labelledby="renting-tab"
                     tabindex="0">
 
                     <div>
